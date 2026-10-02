@@ -136,6 +136,48 @@ CSV Tabular Data
     read_spectral_data_from_csv_file
     write_sds_to_csv_file
 
+IES TM-25-13 Data
+-----------------
+
+``colour``
+
+.. currentmodule:: colour
+
+.. autosummary::
+    :toctree: generated/
+
+    read_spectral_distributions_TM2513
+
+.. autosummary::
+    :toctree: generated/
+    :template: class.rst
+
+    Flags_IESTM2513
+    Header_IESTM2513
+    SpectralDistribution_IESTM2513
+
+.. autosummary::
+    :toctree: generated/
+
+    IESTM2513Error
+
+**Ancillary Objects**
+
+``colour.io``
+
+.. currentmodule:: colour.io
+
+.. autosummary::
+    :toctree: generated/
+
+    DESCRIPTION_FIELDS_IESTM2513
+    SIGNATURE_IESTM2513
+    SIZE_DESCRIPTION_FIELD_IESTM2513
+    SIZE_FLAGS_IESTM2513
+    SIZE_HEADER_IESTM2513
+    SPECTRAL_TABLE_ALIGNMENT_IESTM2513
+    VERSION_IESTM2513
+
 IES TM-27-14 Data
 -----------------
 

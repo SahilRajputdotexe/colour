@@ -44,6 +44,20 @@ from .tabular import (
     read_spectral_data_from_csv_file,
     write_sds_to_csv_file,
 )
+from .tm2513 import (
+    DESCRIPTION_FIELDS_IESTM2513,
+    SIGNATURE_IESTM2513,
+    SIZE_DESCRIPTION_FIELD_IESTM2513,
+    SIZE_FLAGS_IESTM2513,
+    SIZE_HEADER_IESTM2513,
+    SPECTRAL_TABLE_ALIGNMENT_IESTM2513,
+    VERSION_IESTM2513,
+    Flags_IESTM2513,
+    Header_IESTM2513,
+    IESTM2513Error,
+    SpectralDistribution_IESTM2513,
+    read_spectral_distributions_TM2513,
+)
 from .tm2714 import Header_IESTM2714, SpectralDistribution_IESTM2714
 from .uprtek_sekonic import (
     SpectralDistribution_Sekonic,
@@ -88,6 +102,20 @@ __all__ += [
     "read_sds_from_csv_file",
     "read_spectral_data_from_csv_file",
     "write_sds_to_csv_file",
+]
+__all__ += [
+    "DESCRIPTION_FIELDS_IESTM2513",
+    "Flags_IESTM2513",
+    "Header_IESTM2513",
+    "IESTM2513Error",
+    "SIGNATURE_IESTM2513",
+    "SIZE_DESCRIPTION_FIELD_IESTM2513",
+    "SIZE_FLAGS_IESTM2513",
+    "SIZE_HEADER_IESTM2513",
+    "SPECTRAL_TABLE_ALIGNMENT_IESTM2513",
+    "SpectralDistribution_IESTM2513",
+    "VERSION_IESTM2513",
+    "read_spectral_distributions_TM2513",
 ]
 __all__ += [
     "Header_IESTM2714",
